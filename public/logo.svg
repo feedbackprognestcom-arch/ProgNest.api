@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none">
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="nest-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon Symbol -->
+  <g transform="translate(4, 4)">
+    <rect width="56" height="56" rx="14" fill="#131B2E" stroke="url(#logo-grad)" stroke-width="1.5" />
+    <!-- Left Bracket -->
+    <path d="M 18 21 L 11 28 L 18 35" stroke="url(#logo-grad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Right Bracket -->
+    <path d="M 38 21 L 45 28 L 38 35" stroke="url(#logo-grad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Nest base arc -->
+    <path d="M 15 39 C 20 46 36 46 41 39" stroke="#06B6D4" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Core seed/bird emblem -->
+    <path d="M 28 14 C 23 20 21 27 28 34 C 35 27 33 20 28 14 Z" fill="url(#logo-grad)" />
+    <circle cx="28" cy="22" r="2" fill="#FFFFFF" />
+    <!-- Slash -->
+    <line x1="23" y1="36" x2="33" y2="20" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" opacity="0.9" />
+  </g>
+
+  <!-- Typography -->
+  <text x="74" y="38" font-family="system-ui, -apple-system, 'Inter', sans-serif" font-size="28" font-weight="800" fill="url(#text-grad)" letter-spacing="-0.5">Prog<tspan fill="url(#nest-grad)">Nest</tspan></text>
+  <text x="75" y="52" font-family="system-ui, -apple-system, 'Inter', sans-serif" font-size="10" font-weight="500" fill="#94A3B8" letter-spacing="1.5">LEARN TO CODE</text>
+</svg>
