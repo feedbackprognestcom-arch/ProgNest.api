@@ -166,7 +166,7 @@ This website is a static single-page application (SPA). You do not need to pay f
 4. Click **Deploy site**.
 5. Netlify assigns a free `https://<project-name>.netlify.app` domain.
 
-*(The included `public/_redirects` file automatically handles single-page routing).*
+*(Netlify automatically detects Vite single-page application routing).*
 
 ---
 
