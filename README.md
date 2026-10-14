@@ -40,8 +40,7 @@ prognest-website/
 │   ├── manifest.json         # PWA / web app manifest
 │   ├── robots.txt            # Search engine crawler instructions
 │   ├── sitemap.xml           # XML Sitemap with page priorities
-│   ├── 404.html              # SPA routing fallback for GitHub Pages
-│   └── _redirects            # SPA redirect rule for Netlify & Cloudflare Pages
+│   └── 404.html              # SPA routing fallback for GitHub Pages
 ├── src/
 │   ├── assets/
 │   │   └── app-logo.png      # Bundled official logo asset
@@ -141,7 +140,7 @@ This website is a static single-page application (SPA). You do not need to pay f
 5. Click **Save and Deploy**.
 6. Cloudflare provides a free `https://<project-name>.pages.dev` domain with free SSL!
 
-*(The included `public/_redirects` file automatically handles client-side routing).*
+*(Cloudflare Pages automatically handles Single Page Application routing to index.html with no redirects configuration needed).*
 
 ---
 
